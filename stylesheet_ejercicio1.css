@@ -2,20 +2,29 @@ body {
     max-width: 1200px;
 }
 
-.bloque1 {
+.block1 {
+    background-color: black;
+    padding: 20px;
+}
+.nav {
     display: flex;
     background-color: rgb(62, 70, 109);
-    padding: 25px;
+    padding: 15px;
     gap: 15px;
 }
 
 .menu {
     background-color: coral;
-    padding: 15px;
+    padding: 10px;
     border: 25px gray;
     flex-grow: 1;
 }
 
 .menu:nth-child(2){
     flex-grow: 4;
+}
+
+.banner {
+    background-color: yellow;
+    border: 15px solid orange;
 }

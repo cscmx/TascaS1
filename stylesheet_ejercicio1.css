@@ -1,0 +1,21 @@
+body {
+    max-width: 1200px;
+}
+
+.bloque1 {
+    display: flex;
+    background-color: rgb(62, 70, 109);
+    padding: 25px;
+    gap: 15px;
+}
+
+.menu {
+    background-color: coral;
+    padding: 15px;
+    border: 25px gray;
+    flex-grow: 1;
+}
+
+.menu:nth-child(2){
+    flex-grow: 4;
+}

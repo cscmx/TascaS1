@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    gap: 15px;
+}
+.nav {
+    display: flex;
+    background-color: rgb(62, 70, 109);
+    padding: 15px;
+    gap: 15px;
+}
+
+.menu {
+    background-color: coral;
+    padding: 10px;
+    border: 25px gray;
+    flex-grow: 1;
+}
+
+.menu:nth-child(2){
+    flex-grow: 4;
+}
+
+.banner {
+    background-color: yellow;
+    padding: 10px;
+    font-weight: bold;
+    font-size:x-large;
+    border: 15px solid orange;
+}
+
+.block2{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    background-color: black;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 187, 201);
+    flex: 10 1 auto;
+    padding: 20px;
+}
+
+.parent-notes {
+    display: inline;
+    columns: 2;
+    gap: 15px;
+}
+
+.notes {
+    background-color: rgb(50, 103, 183);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.navegacion {
+    display: flex;
+    background-color: rgb(112, 142, 169);
+    padding: 10px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: red;
+    padding: 15px;
+    gap: 15px;
+}
+
+.publi {
+    background-color: yellow;
+    padding: 10px;
+
+}
+
+.block3 {
+    display: flex;
+    background-color: black;
+    padding: 15px;
+}
+
+.footer {
+    background-color: yellow;
+    padding: 10px;
+    flex: 1 1 100%;
+
+}
+
+/*********** RESPONSIVE WEB DESIGN ********/
+
+@media (max-width: 768px){
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .block2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

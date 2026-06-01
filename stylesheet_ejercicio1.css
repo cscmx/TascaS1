@@ -44,31 +44,40 @@ body {
     gap: 20px;
     background-color: black;
 }
+
 .articles {
     display: flex;
-    flex-grow: 3;
-    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(187, 187, 201);
+    flex: 10 1 auto;
     padding: 15px;
-    gap: 10px;
-    background-color: rgb(31, 31, 95);
+}
+
+.parent-notes {
+    display: inline;
+    columns: 2;
+    gap: 15px;
 }
 
 .notes {
-    background-color:  rgb(50, 103, 183);
-    flex-basis: 50%;
+    background-color: rgb(50, 103, 183);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.navegacion {
+    display: flex;
+    background-color: rgb(112, 142, 169);
     padding: 10px;
 }
 
-.notes:nth-child(5){
-    background-color: rgb(137, 155, 195);
-    flex: 1 1 100%;
-}
 aside {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     background-color: red;
     padding: 15px;
+    gap: 15px;
 }
 
 .publi {
